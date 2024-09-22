@@ -2,10 +2,14 @@ import Page from "../Page";
 import Paragraph from "../Paragraph";
 import AuthorName from "../AuthorName";
 import Heading from "../Heading";
+import PageMarker from "../PageMarker";
+
+import styled from "styled-components";
 
 const Page1 = (props) => {
   return (
     <Page>
+      <PageMarker>1/6</PageMarker>
       <Heading>갈 만큼 가고, 갈 데까지 가고, 그러고도 더 가버리기</Heading>
       <AuthorName>김남근</AuthorName>
       <Paragraph>

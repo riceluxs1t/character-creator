@@ -3,10 +3,13 @@ import styled from "styled-components";
 
 import Heading from "../Heading";
 import Paragraph from "../Paragraph";
+import PageMarker from "../PageMarker";
 
 const Page3 = (props) => {
   return (
     <Page>
+      <PageMarker>5/6</PageMarker>
+
       <Heading>이제 노동민에게</Heading>
 
       <Paragraph>

@@ -5,6 +5,7 @@ const Page = (props) => {
 };
 
 const Wrapper = styled.div`
+  position: relative;
   column-count: 2;
   column-gap: 150px;
   max-width: 128rem;

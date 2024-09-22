@@ -1,9 +1,12 @@
 import Page from "../Page";
 import Paragraph from "../Paragraph";
+import PageMarker from "../PageMarker";
 
 const Page2 = (props) => {
   return (
     <Page>
+      <PageMarker>3/6</PageMarker>
+
       <Paragraph>
         나는 갈 데까지 간 러너는 아니지만, 갈 데까지 가고 싶었다. 그러다 정강이
         부상을 입었다. 조금만 달려도 시린 정강이를 케어하느라, 지난 한 달간은
