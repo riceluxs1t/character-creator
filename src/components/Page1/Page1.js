@@ -4,8 +4,6 @@ import AuthorName from "../AuthorName";
 import Heading from "../Heading";
 import PageMarker from "../PageMarker";
 
-import styled from "styled-components";
-
 const Page1 = (props) => {
   return (
     <Page>
